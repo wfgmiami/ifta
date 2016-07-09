@@ -1,0 +1,32 @@
+
+{navbar}
+
+<section class="container-fluid">
+	<div class="row-fluid row-fluid-login">
+		<div class="col-sm-6">
+			<div id="topline">FILL IN YOUR DESTINATIONS</div>
+				<form class="form" role="form" method="POST" action="/trip">
+					<div id="form-wrapper" class="destins">
+						<p>	<input type="text" class="controlsInput" id="destins" size="20" name="destins" value ="" placeholder="Starting Location" /></p>						    							<p> <input type="text" class="controlsInput" id="destins2" size="20" name="destins2" value ="" placeholder="Destination" />						     									<input type="hidden" id="count" value="2" name="count"/></p>                
+					
+						<button id="add" type="button" name="add" class="btn btn-primary">Add Destination</button>
+					</div>	
+		</div>
+
+		<div class="col-sm-6">
+			<div id="topline">MILES IN EACH STATE</div>
+				<div id="statemiles" class="form-group form-group-btn-signin">				
+					<button id="genmiles" type="submit" name="generate" class="btn btn-primary" id="generate">Generate State Miles</button>
+				</div>
+		</div>
+			
+				</form>		
+	</div>
+</section>
+
+{copyright}
+
+
+
+
+
